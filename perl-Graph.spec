@@ -4,7 +4,7 @@
 #
 Name     : perl-Graph
 Version  : 0.9704
-Release  : 4
+Release  : 5
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHI/Graph-0.9704.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHI/Graph-0.9704.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgraph-perl/libgraph-perl_0.96-2.debian.tar.xz
