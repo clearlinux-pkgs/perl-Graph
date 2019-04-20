@@ -4,11 +4,11 @@
 #
 Name     : perl-Graph
 Version  : 0.9704
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHI/Graph-0.9704.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHI/Graph-0.9704.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgraph-perl/libgraph-perl_0.96-2.debian.tar.xz
-Summary  : unknown
+Summary  : graph data structures and algorithms
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Graph-license = %{version}-%{release}
@@ -22,6 +22,7 @@ data structures.  (If you were looking for pie charts, I'm sorry.)
 Summary: dev components for the perl-Graph package.
 Group: Development
 Provides: perl-Graph-devel = %{version}-%{release}
+Requires: perl-Graph = %{version}-%{release}
 
 %description dev
 dev components for the perl-Graph package.
@@ -40,7 +41,7 @@ license components for the perl-Graph package.
 cd ..
 %setup -q -T -D -n Graph-0.9704 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Graph-0.9704/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/Graph-0.9704/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
