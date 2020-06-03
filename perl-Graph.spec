@@ -4,7 +4,7 @@
 #
 Name     : perl-Graph
 Version  : 0.9704
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHI/Graph-0.9704.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHI/Graph-0.9704.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgraph-perl/libgraph-perl_0.96-2.debian.tar.xz
@@ -116,27 +116,27 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Graph.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph.pod
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/AdjacencyMap.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/AdjacencyMap/Heavy.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/AdjacencyMap/Light.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/AdjacencyMap/Vertex.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/AdjacencyMatrix.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/Attribute.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/BitMatrix.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/Directed.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/MSTHeapElem.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/Matrix.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/SPTHeapElem.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/TransitiveClosure.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/TransitiveClosure/Matrix.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/Traversal.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/Traversal/BFS.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/Traversal/DFS.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/Undirected.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Graph/UnionFind.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Heap071/Elem.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Heap071/Fibonacci.pm
-/usr/lib/perl5/vendor_perl/5.30.2/auto/Heap071/Elem/autosplit.ix
-/usr/lib/perl5/vendor_perl/5.30.2/auto/Heap071/Fibonacci/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.30.3/Graph.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph.pod
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/AdjacencyMap.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/AdjacencyMap/Heavy.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/AdjacencyMap/Light.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/AdjacencyMap/Vertex.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/AdjacencyMatrix.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/Attribute.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/BitMatrix.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/Directed.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/MSTHeapElem.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/Matrix.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/SPTHeapElem.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/TransitiveClosure.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/TransitiveClosure/Matrix.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/Traversal.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/Traversal/BFS.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/Traversal/DFS.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/Undirected.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Graph/UnionFind.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Heap071/Elem.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Heap071/Fibonacci.pm
+/usr/lib/perl5/vendor_perl/5.30.3/auto/Heap071/Elem/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.30.3/auto/Heap071/Fibonacci/autosplit.ix
