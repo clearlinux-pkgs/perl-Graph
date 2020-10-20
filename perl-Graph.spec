@@ -4,7 +4,7 @@
 #
 Name     : perl-Graph
 Version  : 0.9706
-Release  : 16
+Release  : 17
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9706.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9706.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgraph-perl/libgraph-perl_0.96-2.debian.tar.xz
@@ -13,6 +13,8 @@ Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Graph-license = %{version}-%{release}
 Requires: perl-Graph-perl = %{version}-%{release}
+Requires: perl(Heap)
+Requires: perl(Heap::Fibonacci)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Heap)
 BuildRequires : perl(Heap::Fibonacci)
