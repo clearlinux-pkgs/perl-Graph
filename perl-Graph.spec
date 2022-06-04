@@ -4,7 +4,7 @@
 #
 Name     : perl-Graph
 Version  : 0.9725
-Release  : 42
+Release  : 43
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9725.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9725.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgraph-perl/libgraph-perl_0.96-2.debian.tar.xz
@@ -118,21 +118,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Graph.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph.pod
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/AdjacencyMap.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/AdjacencyMap/Light.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/AdjacencyMatrix.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/Attribute.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/BitMatrix.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/Directed.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/MSTHeapElem.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/Matrix.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/SPTHeapElem.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/TransitiveClosure.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/TransitiveClosure/Matrix.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/Traversal.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/Traversal/BFS.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/Traversal/DFS.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/Undirected.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Graph/UnionFind.pm
+/usr/lib/perl5/*
