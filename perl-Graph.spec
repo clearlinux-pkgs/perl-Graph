@@ -5,7 +5,7 @@
 #
 Name     : perl-Graph
 Version  : 0.9727
-Release  : 46
+Release  : 47
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9727.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9727.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgraph-perl/libgraph-perl_0.96-2.debian.tar.xz
