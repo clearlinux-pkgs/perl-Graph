@@ -1,5 +1,5 @@
 PKG_NAME := perl-Graph
-URL = https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9727.tar.gz
-ARCHIVES = http://http.debian.net/debian/pool/main/libg/libgraph-perl/libgraph-perl_0.96-2.debian.tar.xz deblicense/
+URL = https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9728.tar.gz
+ARCHIVES = 
 
 include ../common/Makefile.common
