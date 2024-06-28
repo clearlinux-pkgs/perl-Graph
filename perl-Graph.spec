@@ -6,10 +6,10 @@
 # autospec commit: a5d3013
 #
 Name     : perl-Graph
-Version  : 0.9728
-Release  : 49
-URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9728.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9728.tar.gz
+Version  : 0.9729
+Release  : 50
+URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9729.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9729.tar.gz
 Summary  : unknown
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
@@ -48,10 +48,10 @@ perl components for the perl-Graph package.
 
 
 %prep
-%setup -q -n Graph-0.9728
-cd %{_builddir}/Graph-0.9728
+%setup -q -n Graph-0.9729
+cd %{_builddir}/Graph-0.9729
 pushd ..
-cp -a Graph-0.9728 buildavx2
+cp -a Graph-0.9729 buildavx2
 popd
 
 %build
