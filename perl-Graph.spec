@@ -7,7 +7,7 @@
 #
 Name     : perl-Graph
 Version  : 0.9729
-Release  : 50
+Release  : 51
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9729.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9729.tar.gz
 Summary  : unknown
