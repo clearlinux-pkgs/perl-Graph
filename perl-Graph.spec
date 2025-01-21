@@ -7,7 +7,7 @@
 #
 Name     : perl-Graph
 Version  : 0.9733
-Release  : 57
+Release  : 58
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9733.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETJ/Graph-0.9733.tar.gz
 Summary  : unknown
